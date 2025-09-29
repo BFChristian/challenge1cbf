@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.challenge1cbf.ui.screens.LoginScreen
+import com.example.challenge1cbf.ui.screens.RegisterScreen
 import com.example.challenge1cbf.ui.screens.WelcomeScreen
 import com.example.challenge1cbf.ui.theme.AppTheme
 
@@ -23,7 +24,8 @@ class MainActivity : ComponentActivity() {
             AppTheme {
                 Scaffold( modifier = Modifier.fillMaxSize() ) { innerPadding ->
                     //WelcomeScreen(modifier = Modifier.padding(innerPadding))
-                    LoginScreen(modifier = Modifier.padding(innerPadding))
+                    //LoginScreen(modifier = Modifier.padding(innerPadding))
+                    RegisterScreen(modifier = Modifier.padding(innerPadding))
                 }
             }
         }

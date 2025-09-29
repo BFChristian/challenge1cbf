@@ -14,7 +14,7 @@ fun PrimaryTitle(
     text: String,
     modifier: Modifier = Modifier,
     fontSize: TextUnit = 35.sp,
-    textAlign: TextAlign? = TextAlign.Center
+    textAlign: TextAlign = TextAlign.Center
 ) {
     Text(
         text = text,
